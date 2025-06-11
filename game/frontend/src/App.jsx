@@ -2,7 +2,7 @@ import { useState } from "react";
 import { ethers } from "ethers";
 import contractABI from "../src/assets/ClickToken.json";
 
-const CONTRACT_ADDRESS = "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512"; // 🔁 Replace with real one
+const CONTRACT_ADDRESS = "0x8CFF35CEEd339e4011FA88Bd43530D574D534eC6"; // 🔁 Replace with real one
 
 function App() {
   const [account, setAccount] = useState(null);
